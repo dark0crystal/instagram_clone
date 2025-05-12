@@ -4,27 +4,24 @@ import 'package:instagram_clone/models/avatar.dart';
 
 List <Avatar> Avatars =[
   Avatar(
-    userName:"toto" , 
+    userName:"user1" , 
     image:  'lib/assets/img1.jpeg',
   ),
   Avatar(
-    userName:"roro" , 
+    userName:"user2" , 
     image:  'lib/assets/img2.jpeg',
   ),
+
   Avatar(
-    userName:"gogo" , 
-    image:  'lib/assets/img3.jpeg',
-  ),
-  Avatar(
-    userName:"bobo" , 
+    userName:"user3" , 
     image:  'lib/assets/img4.jpeg',
   ),
   Avatar(
-    userName:"eoeo" , 
+    userName:"user4" , 
     image:  'lib/assets/img5.jpeg',
   ),
   Avatar(
-    userName:"popo" , 
+    userName:"user5" , 
     image:  'lib/assets/img6.jpeg',
   ),
 ];
