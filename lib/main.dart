@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_clone/widgets/ListOfCircledAvatars.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -8,9 +9,7 @@ void main() {
         backgroundColor: Colors.black38,
         centerTitle: false,
       ),
-      bottomNavigationBar: BottomNavigationBar(
-
-      )
+    body: Listofcircledavatars(),
     ),
   ));
 }
