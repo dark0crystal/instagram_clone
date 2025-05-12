@@ -1,12 +1,12 @@
 
 
 class Post {
-  String? userName;
-  String? description;
-  String? image ;
-  int? likes;
-  int? shares;
-  int? comments;
+  String userName;
+  String description;
+  String image ;
+  int likes;
+  int shares;
+  int comments;
 
 
   Post({
