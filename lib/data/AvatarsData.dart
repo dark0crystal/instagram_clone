@@ -23,4 +23,8 @@ List <Avatar> Avatars =[
     userName:"eoeo" , 
     image:  'lib/assets/img5.jpeg',
   ),
+  Avatar(
+    userName:"popo" , 
+    image:  'lib/assets/img6.jpeg',
+  ),
 ];
