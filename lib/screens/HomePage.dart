@@ -17,23 +17,19 @@ class _HomePageState extends State<HomePage> {
         title: Text("instagram"),
         centerTitle: false,
       ),
-      body: Container(
-        padding: const EdgeInsets.all(4),
-        margin: EdgeInsets.all(6),
-        child: Column(
-          children: [
-            Expanded(
-              child:Listofcircledavatars(),
-            ),
-            SizedBox(height: 10,),
-            Expanded(
-              child:MainPagePosts()
-             ,)
-            
-          ],
-        ),
+      body: Column(
+        children: [
+       
+          SizedBox(
+            height: 130, 
+            child: Listofcircledavatars(),
+          ),
+          
+          Expanded(
+            child: MainPagePosts(),
+          ),
+        ],
       ),
     );
-   
   }
 }
