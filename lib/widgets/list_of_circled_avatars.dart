@@ -18,7 +18,7 @@ class Listofcircledavatars extends StatelessWidget {
             child: Column(
               children: [
                 CircleAvatar(
-                  radius: 50, 
+                  radius: 45, 
                   backgroundImage: AssetImage(avatar.image),
                 ),
                 const SizedBox(height: 8),
