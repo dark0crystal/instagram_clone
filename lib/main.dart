@@ -1,17 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:instagram_clone/widgets/ListOfCircledAvatars.dart';
+import 'package:instagram_clone/screens/HomePage.dart';
 
-void main() {
-  runApp(MaterialApp(
-    home: Scaffold(
-      appBar: AppBar(
-        title: const Text('Instagram'),
-        backgroundColor: Colors.black38,
-        centerTitle: false,
-      ),
-    body: Listofcircledavatars(),
-    ),
+
+void main(){
+  runApp(const MaterialApp(
+    home: HomePage(),
   ));
 }
+
 
 
