@@ -16,13 +16,14 @@ class _MainPagePostsState extends State<MainPagePosts> {
       itemBuilder: (_, index) {
         final posts = Posts[index];
         return Container(
-          margin: EdgeInsets.symmetric(vertical: 14),
+          margin: EdgeInsets.symmetric(vertical: 16),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Row(
+              Container(
+                padding: EdgeInsets.fromLTRB(10 ,0,10,0),
+              child:Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                
                 children: [
                   Row(
                     children: [
@@ -39,6 +40,7 @@ class _MainPagePostsState extends State<MainPagePosts> {
                     child: Text("Follow"),
                   ),
                 ],
+              ),
               ),
               const SizedBox(height: 8),
               Image.asset(posts.image),
