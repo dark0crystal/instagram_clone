@@ -1,8 +1,8 @@
 
 
 class Avatar {
-  String? userName;
-  String? image;
+  String userName;
+  String image;
 
   Avatar({
     required this.userName,
