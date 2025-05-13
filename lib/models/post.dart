@@ -1,6 +1,7 @@
 
 
 class Post {
+  int id;
   String userName;
   String description;
   String image ;
@@ -10,6 +11,7 @@ class Post {
 
 
   Post({
+    required this.id,
     required this.userName,
     required this.description,
     required this.image,
