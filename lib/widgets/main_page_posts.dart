@@ -42,7 +42,7 @@ class _MainPagePostsState extends State<MainPagePosts> {
                   ),
                   TextButton(
                     onPressed: () {
-                      Navigator.push(context, MaterialPageRoute(builder: (ctx)=>const Profile()));
+                      Navigator.push(context, MaterialPageRoute(builder: (ctx)=> Profile(post :post)));
                     },
                     child: const Text("Follow"),
                   ),
